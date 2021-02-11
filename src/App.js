@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <div className="bg-warning">
+        <div className="bg-secondary">
           <Route path="/" component={HomePage} exact />
           <Route path="/about" component={AboutPage} />
           <Route path="/contact" component={ContactPage} />
